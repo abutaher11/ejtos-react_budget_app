@@ -1,3 +1,11 @@
+# dependencies
+/lib
+node_modules/
+build/
+package-lock.json
+yarn.lock
+.vscode/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -127,3 +135,4 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+node_modules
