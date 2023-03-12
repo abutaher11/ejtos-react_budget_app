@@ -23,9 +23,7 @@ const Budget = () => {
   
       if (enteredValue < totalExpenses) {
         alert(
-          "The value of the buget can't be lower than the expenses value " +
-            currency +
-            totalExpenses
+          "You cannot reduce the budget value lower than the spending "
         );
       } else {
         if (enteredValue > BUDGET_MAX_VALUE) {
